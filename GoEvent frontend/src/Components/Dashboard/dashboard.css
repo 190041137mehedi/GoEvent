@@ -1,0 +1,56 @@
+.dash-main-container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100%;   
+}
+
+.dash-side-tab{
+    padding: 40px 0px 40px 0px;
+    margin-right: 40px;
+    margin-left: 12%;
+    height: 100vh;    
+    /* width: 100%; */
+    /* background: #ddd; */
+    /* position: absolute; */
+}
+
+.dash-side-btn-con{
+    width: 220px;
+    
+}
+
+#profile-drop-icn{
+    margin-right: 10px;
+}
+
+
+
+.dash-side-btn{
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    /* margin-bottom: 15px; */
+    padding: 10px 25px;
+    background: #efefef;
+    /* border-radius: 5px; */
+    color: #303030;
+    font-weight: 600;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    /* transition: all 0.2s; */
+}
+
+.dash-side-btn:hover{
+    color: var(--accent-color);
+    background: #ddd;
+}
+
+.dash-active{
+    border-right: 2px solid var(--accent-color);
+    background: #ddd;
+}
+

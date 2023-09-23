@@ -1,0 +1,25 @@
+*{
+  --accent-color:#ED6A5E;
+}
+
+.tabs{
+  width: 300px;
+  margin-left: 0 !important;
+  display: flex;
+}
+
+
+.tab{
+  color: var(--accent-color);
+  background-color: #dedede;
+  border: none;
+  font-size: 0.8rem;
+  padding: 15px;
+  width: 150px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.selected{
+  background-color: #fff;
+}
